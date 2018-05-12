@@ -1,13 +1,12 @@
 PR = "r1"
 
-KERNEL_REPO ?= "git://github.com/altera-opensource/linux-socfpga.git"
-KERNEL_PROT ?= "https"
+KERNEL_REPO?="git://git.rocketboards.org/linux-socfpga.git"
 #KERNEL_BRANCH?="socfpga-${PV}"
+KERNEL_PROT?="http"
 KERNEL_DEFCONFIG?="socfpga_defconfig"
 KERNEL_TAG?="${AUTOREV}"
 
 SRC_URI = "${KERNEL_REPO};protocol=${KERNEL_PROT};branch=${KERNEL_BRANCH}"
-
 
 SRCREV_pn-${PN} = "${KERNEL_TAG}"
 
@@ -111,4 +110,3 @@ kernel_do_deploy_append() {
 		rm -f vmlinux &&
 		ln -sf ${VMLINUX_NAME} vmlinux
 }
-
