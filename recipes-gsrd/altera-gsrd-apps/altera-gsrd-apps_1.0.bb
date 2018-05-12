@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM="file://${COMMON_LICENSE_DIR}/BSD-3-Clause;md5=550794465ba0ec53
 S="${WORKDIR}/git"
 
 REFDES_REPO ?= "https://github.com/altera-opensource/linux-refdesigns.git"
-REFDES_PROT ?= "https"
+REFDES_PROT ?= "http"
 REFDES_BRANCH ?= "socfpga-14.0.1"
 SRCREV = "1c757ba635747c7ddbdc4746d62820b0c1fa9f7f"
 
