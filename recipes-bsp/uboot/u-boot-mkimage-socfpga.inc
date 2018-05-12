@@ -6,7 +6,7 @@ SECTION = "bootloader"
 PROVIDES+=" u-boot-mkimage"
 PR = "r0"
 
-SRC_URI = "https://github.com/altera-opensource/u-boot-socfpga.git;protocol=http;branch=socfpga-${PV}"
+SRC_URI = "http://github.com/altera-opensource/u-boot-socfpga.git;protocol=http;branch=socfpga-${PV}"
 
 S = "${WORKDIR}/uboot-socfgpa"
 
