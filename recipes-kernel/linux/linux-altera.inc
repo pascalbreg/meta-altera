@@ -1,12 +1,15 @@
 PR = "r1"
 
-KERNEL_REPO?="https://github.com/altera-opensource/linux-socfpga.git"
+KERNEL_REPO?="http://github.com/altera-opensource/linux-socfpga.git"
 #KERNEL_BRANCH?="socfpga-${PV}"
 KERNEL_PROT?="http"
 KERNEL_DEFCONFIG?="socfpga_defconfig"
 KERNEL_TAG?="${AUTOREV}"
 
 SRC_URI = "${KERNEL_REPO};protocol=${KERNEL_PROT};branch=${KERNEL_BRANCH}"
+SRC_URI[md5sum] = "3466027d0d861f119f48700fde3b3bd3"
+SRC_URI[sha256sum] = "d2b6b29812b641aaf522975d107e1ebdfaee7a8204d58a6addbe9d143cc9c9f4"
+
 
 SRCREV_pn-${PN} = "${KERNEL_TAG}"
 
