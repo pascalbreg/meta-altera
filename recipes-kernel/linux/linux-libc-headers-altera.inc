@@ -10,7 +10,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 
 require recipes-kernel/linux-libc-headers/linux-libc-headers.inc
 
-SRC_URI = "https://github.com/altera-opensource/linux-socfpga.git;protocol=http;branch=socfpga-${PV}"
+SRC_URI = "http://github.com/altera-opensource/linux-socfpga.git;protocol=http;branch=socfpga-${PV}"
 
 S = "${WORKDIR}/git"
 SRCREV_pn-${PN} = "${AUTOREV}"
