@@ -1,5 +1,5 @@
 DTB_SUBDIR="dts/"
 
 require recipes-kernel/linux/linux-altera-ltsi.inc
-SRC_URI[md5sum] = "2ce838e1d2db7086967146c23b363aee"
+SRC_URI[md5sum] = "c79fe0efa6d739322a02892c69770098"
 
