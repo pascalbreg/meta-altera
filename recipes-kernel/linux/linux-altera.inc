@@ -1,7 +1,7 @@
 PR = "r1"
 
 KERNEL_REPO?="https://github.com/altera-opensource/linux-socfpga.git"
-KERNEL_BRANCH?="socfpga-4.9.78-ltsi"
+#KERNEL_BRANCH?="socfpga-${PV}"
 KERNEL_PROT?="http"
 KERNEL_DEFCONFIG?="socfpga_defconfig"
 KERNEL_TAG?="${AUTOREV}"
