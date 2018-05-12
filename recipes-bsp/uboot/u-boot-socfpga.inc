@@ -10,9 +10,9 @@ PACKAGES=""
 
 # the following variables can be passed from the env
 # using BB_ENV_WHITELIST to override the defaults
-UBOOT_REPO?="git://git.rocketboards.org/u-boot-socfpga.git"
+UBOOT_REPO?="https://github.com/altera-opensource/u-boot-socfpga.git"
 UBOOT_BRANCH?="socfpga_v${PV}"
-UBOOT_PROT?="http"
+UBOOT_PROT?="https"
 UBOOT_TAG?="${AUTOREV}"
 
 SRC_URI = "${UBOOT_REPO};protocol=${UBOOT_PROT};branch=${UBOOT_BRANCH}"
