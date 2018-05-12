@@ -7,8 +7,8 @@ KERNEL_DEFCONFIG?="socfpga_defconfig"
 KERNEL_TAG?="${AUTOREV}"
 
 SRC_URI = "${KERNEL_REPO};protocol=${KERNEL_PROT};branch=${KERNEL_BRANCH}"
-SRC_URI[md5sum] = "3466027d0d861f119f48700fde3b3bd3"
-SRC_URI[sha256sum] = "d2b6b29812b641aaf522975d107e1ebdfaee7a8204d58a6addbe9d143cc9c9f4"
+SRC_URI[md5sum] = "7cdbab9af83d776d770cb28c78254a50"
+SRC_URI[sha256sum] = "6204bf553b91cb1dffc453b50a23a3ed3712f82f45d33f6b8887356a5184064f"
 
 
 SRCREV_pn-${PN} = "${KERNEL_TAG}"
