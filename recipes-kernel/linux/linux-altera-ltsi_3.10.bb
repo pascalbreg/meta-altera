@@ -3,6 +3,7 @@ DTB_SUBDIR="dts/"
 BB_STRICT_CHECKSUM = "0"
 
 require recipes-kernel/linux/linux-altera-ltsi.inc
-SRC_URI[md5sum] = "31fed12d73068b76e65dab4a92365db9"
-SRC_URI[sha256sum] = "c39fa292b05d0dcf56f53bf88034279901276229d8353fea39b37b8badde51a1"
+SRC_URI[md5sum] = "8ea04fc5a21c6f022b566ce9481a838b"
+SRC_URI[sha256sum] = "732917d470034a69569597da8df0c560a74c824ae3988e4c04c84e46fa770a87"
+
 
